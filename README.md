@@ -11,6 +11,7 @@ All tasks are organized in the `basics/` directory, and each script is named acc
 - Navigating directories
 - Listing contents
 - Working with files and directories
+- File permissions
 - Symbolic links
 - Copying and moving files
 - Deleting files and directories
@@ -23,3 +24,4 @@ Each script is executable and can be run like this:
 
 ```bash
 ./<script_name>
+
