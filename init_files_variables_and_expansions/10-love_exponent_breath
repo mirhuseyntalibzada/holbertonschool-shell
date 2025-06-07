@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$BREATH ^ $LOVE" | bc
+awk -v b="$BREATH" -v l="$LOVE" 'BEGIN { print b ^ l }'
